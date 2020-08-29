@@ -1,6 +1,5 @@
 <?php
 
-
 class ShopProduct
 {
     private string $title;
@@ -25,6 +24,8 @@ class ShopProduct
         $this->producerFirstName = $firstName;
         $this->producerMainName = $mainName;
     }
+
+
 
     // геттеры и сеттер к инкапсулированным свойствам
     public function getProducerFirstName(): string

@@ -1,5 +1,6 @@
 <?php
 
+include 'ShopProductWriter.php';
 
 class TextProductWriter extends ShopProductWriter
 {
