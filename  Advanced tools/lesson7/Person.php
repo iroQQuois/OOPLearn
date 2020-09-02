@@ -4,14 +4,34 @@
 
 class Person
 {
-    private string $_name;
+    protected string $_name;
     private string $_age;
+    private int $id;
     private PersonWriter $writer;
 
+    public function __construct(string $_name, int $_age)
+    {
+        $this->_name= $_name;
+        $this->_age = $_age;
+    }
+
+    public function __destruct()
+    {
+        // деструктор вызывается, когда объект (в данном случае типа Peron)
+        // удаляется из памяти. Например при вызове функции __unset()
+        if (!empty($this->id))
+        {
+            // сохранить данные из экземпляра класса Person
+            echo "Сохранение персональных данных";
+        }
+    }
+
+    /*
     public function __construct(PersonWriter $writer)
     {
         $this->writer = $writer;
     }
+    */
 
     // Срабатывает, когда вызывается неопределённый метод
     public function __call(string $name, array $arguments)
