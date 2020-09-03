@@ -22,3 +22,17 @@ class ProcessSale
         }
     }
 }
+
+$logger = function ($product)
+{
+    echo "Записываем ({$product->name})\r\n<br />";
+};
+
+
+$processor = new ProcessSale();
+$processor->registerCallback($logger);
+
+$processor->sale(new ExampleProduct("Туфли", 6));
+echo "<br />";
+$processor->sale(new ExampleProduct("Кофе", 6));
+
