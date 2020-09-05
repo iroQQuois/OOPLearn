@@ -1,5 +1,6 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson6;
 // Обработка ошибок и их логирование в xml файл
 
 class Conf

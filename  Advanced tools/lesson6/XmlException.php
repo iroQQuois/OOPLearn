@@ -1,5 +1,6 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson6;
 
 class XmlException extends \Exception
 {

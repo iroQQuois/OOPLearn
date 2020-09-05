@@ -1,5 +1,7 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson5;
+
 // Пример позднего статического связывания
 
 abstract class DomainObject

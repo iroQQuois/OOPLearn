@@ -1,5 +1,7 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson3;
+
 
 interface Chargeable
 {

@@ -1,5 +1,8 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson3;
+
+use OOPLearn\Objects\CdProduct;
 
 class InterfaceShopProduct implements Chargeable
 {

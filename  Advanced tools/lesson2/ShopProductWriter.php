@@ -1,7 +1,11 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson2;
+
 // пример абстрактного класса
 // нельзя создать объект абстрактного класса
+
+use OOPLearn\Objects\ShopProduct;
 
 abstract class ShopProductWriter
 {

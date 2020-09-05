@@ -1,6 +1,8 @@
 <?php
 
-include 'ShopProductWriter.php';
+namespace OOPLearn\AdvancedTools\Lesson2;
+
+use OOPLearn\AdvancedTools\Lesson2\ShopProductWriter;
 
 class XmlProductWriter extends ShopProductWriter
 {

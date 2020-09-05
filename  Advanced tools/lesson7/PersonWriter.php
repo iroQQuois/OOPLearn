@@ -1,5 +1,6 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson7;
 
 class PersonWriter
 {

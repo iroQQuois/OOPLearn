@@ -1,7 +1,8 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson8;
 
-class ExampleProduct
+class Product
 {
     public string $name;
     public float $price;

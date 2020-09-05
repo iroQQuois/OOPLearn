@@ -1,10 +1,12 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson4;
+
 include 'PriceUtilities.php';
 include 'IdentityTrait.php';
 include 'IdentityObject.php';
 
-class ShopProductForTrait implements IdentityObject
+class ShopProduct implements IdentityObject
 {
     /*
     private int $taxRate = 17;
@@ -26,8 +28,8 @@ class ShopProductForTrait implements IdentityObject
     }
 }
 
-$p = new ShopProductForTrait();
-ShopProductForTrait::storeIdentityObject($p);
+$p = new ShopProduct();
+ShopProduct::storeIdentityObject($p);
 echo $p->calculateTax(100) . "\n";
 echo "<br />";
 echo $p->generateId() . "<br />\n";

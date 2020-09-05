@@ -1,5 +1,7 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson4;
+
 include 'PriceUtilities.php';
 
 abstract class Service

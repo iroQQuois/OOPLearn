@@ -1,5 +1,6 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson8;
 
 class ProcessSale
 {
@@ -14,7 +15,7 @@ class ProcessSale
         $this->callbacks[] = $callback;
     }
 
-    public function sale(ExampleProduct $product)
+    public function sale(Product $product)
     {
         echo "{$product->name}: обрабатывается...\n";
         foreach ($this->callbacks as $callback) {

@@ -1,5 +1,7 @@
 <?php
 
+namespace OOPLearn\Objects;
+
 class ShopProduct
 {
     private string $title;

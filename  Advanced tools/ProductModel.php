@@ -1,5 +1,12 @@
 <?php
 
+// lesson 1
+namespace OOPLearn\AdvancedTools;
+
+use OOPLearn\Objects\BookProduct;
+use OOPLearn\Objects\CdProduct;
+use OOPLearn\Objects\ShopProduct;
+
 class ProductModel
 {
     private int $id = 0;

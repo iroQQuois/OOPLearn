@@ -1,5 +1,7 @@
 <?php
 
+namespace OOPLearn\AdvancedTools\Lesson7;
+
 
 class ToStringExamplePerson
 {
