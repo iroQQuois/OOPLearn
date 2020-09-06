@@ -1,6 +1,8 @@
 <?php
 
+
 namespace OOPLearn\PrinciplesOfPatterns\CompositionAndExtend;
+
 
 class FixedCostStrategy extends CostStrategy
 {

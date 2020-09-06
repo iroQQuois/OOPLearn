@@ -1,11 +1,14 @@
 <?php
 
+
 namespace OOPLearn\PrinciplesOfPatterns\CompositionAndExtend;
+
 
 include 'Seminar.php';
 include 'Lecture.php';
 include 'TimedCostStrategy.php';
 include 'FixedCostStrategy.php';
+
 
 abstract class Lesson
 {
