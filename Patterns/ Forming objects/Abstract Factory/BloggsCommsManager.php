@@ -1,6 +1,9 @@
 <?php
 
 
+namespace OOPLearn\Patterns\FormingObjects\AbstractFactory;
+
+
 class BloggsCommsManager extends CommsManager
 {
 

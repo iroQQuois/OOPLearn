@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OOPLearn\Patterns\FormingObjects\AbsctractFactory;
+namespace OOPLearn\Patterns\FormingObjects\AbstractFactory;
 
 // интерфейс для формирования каждого из трёх продуктов
 
