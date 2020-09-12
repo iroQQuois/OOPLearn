@@ -22,7 +22,7 @@ abstract class Notifier
         }
     }
 
-    abstract public function inform($message);
+abstract public function inform($message);
 }
 
 $lesson1 = new Seminar(4, new \OOPLearn\PrinciplesOfPatterns\CompositionAndExtend\TimedCostStrategy());
